@@ -16,8 +16,7 @@ library(plyr)
 setwd(dirname(getActiveDocumentContext()$path))
 getwd()
 
-####### Pixels to degrees #######
-
+#Pixels to degrees
 source("pix2deg.R")
 winx <- 1920  
 winy <- 1080
@@ -33,7 +32,7 @@ yrange=c(ymargin*px2deg, (winy-ymargin)*px2deg)
 
 win <- owin(xrange,yrange) # Observation window
 
-###### Load data #######
+# Load data
 Filename1<-sprintf("RAW_mm.RData")
 load(Filename1)
 
