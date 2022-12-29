@@ -378,7 +378,7 @@ ggplot(meanPcfImg,aes(x=r,y=pcf,col=pp)) +
   coord_cartesian(ylim=c(0,3)) +
   labs(x='Distance r [°]',y='Pair Correlation Function g(r)',colour='Point Process') 
 
-# PCF for 4 conditions - only experiment
+# PCF for 4 conditions - excluding simulated point processes
 meanPCFs <- meanPcfDataSet %>%
   dplyr::filter(.,pp=='Experiment') %>%
   dplyr::group_by(.,con,r) %>%
