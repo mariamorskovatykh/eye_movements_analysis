@@ -61,7 +61,7 @@ To further explore the relationship between image familiarity and eye movement b
 
 At the first inspection, there is a visible difference in both fixation durations and saccade amplitudes between the first and second viewing in both conditions. Although the effect exists in both conditions, it is clear that in minutes condition it has a larger magnitude that in days condition.
 
-<img src="Plots/fixdur_sacampl_means.jpg" width="900" height="400" alt="fixdur_sacampl_mean">
+<img src="Plots/fixdur_sacampl_means.jpg" width="900" height="300" alt="fixdur_sacampl_mean">
 
 As the result, the linear mixed effect analysis revealed a strong significant effect of viewing for both fixation duration and saccade amplitude. This result indicates that both dependent variables differed significantly between the first and second observations on short and long time scales. We found no significant effect of condition and interaction between condition and viewing for fixation duration and saccade amplitude. The former suggests that on average participants reacted identically to images in minutes and days conditions. The latter confirms that there was no difference in reaction patterns to new versus familiar images between minutes and days conditions.
  
