@@ -64,6 +64,18 @@ At the first inspection, there is a visible difference in both fixation duration
 <img src="Plots/fixdur_sacampl_means.jpg" width="900" height="300" alt="fixdur_sacampl_mean">
 
 As the result, the linear mixed effect analysis revealed a strong significant effect of viewing for both fixation duration and saccade amplitude. This result indicates that both dependent variables differed significantly between the first and second observations on short and long time scales. We found no significant effect of condition and interaction between condition and viewing for fixation duration and saccade amplitude. The former suggests that on average participants reacted identically to images in minutes and days conditions. The latter confirms that there was no difference in reaction patterns to new versus familiar images between minutes and days conditions.
+
+<img src="Plots/LMM_fixdur.jpg" width="600" height="350" alt="LMM_fixdur.jpg">
+
+<img src="Plots/LMM_sacampl.jpg" width="600" height="350" alt="LMM_sacampl.jpg">
+
+## Conclusion
+
+The current study aimed to investigate the impact of long-term memory on eye movement behavior. Through the use of an eye-tracking experiment, we sought to determine whether the image familiarity effect persisted over longer time scales as visual long-term memory does.
+
+Our results showed that the image familiarity effect was present on both short and long time scales, with participants exhibiting longer fixation durations and increased pair correlation function for familiar images. However, the effect was weaker when images were repeated over a week interval, potentially due to decaying representations stored in visual long-term memory.
+
+Overall, this study provides evidence for the persistence of the image familiarity effect over longer time scales, indicating that it is likely driven by visual long-term memory. However, further research is needed to fully understand the complex relationship between memory and eye movement behavior.
  
 ## Acknowledgements
 
