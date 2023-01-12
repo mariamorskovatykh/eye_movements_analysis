@@ -34,24 +34,24 @@ In order to investigate the influence of image familiarity effect on the eye mov
 
 First, we simulated two control point processes (homogeneous and inhomogeneous) to ensure that correlations in the PCF arise from the empirical data. To do so, we estimated fixation density for each image using the data from all participants. Once the fixation density was estimated, individual scanpaths for the inhomogeneous and homogeneous point processes were simulated using the computed density.
 
-IMAGE HERE
+![point_processes_patterns](Plots/point_processes_patterns.jpg)
 
 Next, in order to compute PCF, one needs to choose an optimal bandwidth for the intensity estimation of PCF. This step was implemented by varying bandwidths, computing PCFs for them, and calculating the deviation from complete spatial randomness of the average PCF of an image. We varied bandwidths from 0.1° to 10° with a step size of 0.1°. The bandwidths that yielded the smallest deviation of PCF from complete spatial randomness, were taken for further intensity estimation of the pair correlation function.
 
-IMAGE HERE
+<img src="Plots/bandwidth_deviation.jpg" width="700" height="250" alt="bandwidths">
 
 The final step implied computing PCF for each image viewed for the first and second time under minutes and days conditions. The optimal bandwidth that resulted in the smallest deviation from complete spatial randomness of the PCF was used to compute pair correlation functions. 
 
-IMAGE HERE
-IMAGE HERE
+<img src="Plots/PCF_images.jpg" width="700" height="550" alt="PCFs_across_images">
 
 As the result, PCF analysis demonstrated that repeated viewing resulted in increased PCFs and, thus, more abundant fixation locations in both minutes and days conditions.
 
+<img src="Plots/PCF_conditions.png" width="600" height="300" alt="PCFs_across_conditions">
+
 In order to further demonstrate that fixations are more strongly aggregated during the second viewing compared to the first one, we obtained heatmaps that show distributions of gaze points produced by all participants in different experimental conditions, where colors vary with the density of the number of fixations.
 
-IMAGE HERE 
-
-IMAHE HERE
+<img src="Plots/heatmap_minutes.png" width="700" height="500" alt="heatmaps_minutes">
+<img src="Plots/heatmap_days.png" width="700" height="500" alt="heatmaps_days">
 
 As one can see, the distribution of fixations in the first observation is more spread over the scene, while in the second viewing, fixations are directed to regions of interest.
 
@@ -61,7 +61,7 @@ To further explore the relationship between image familiarity and eye movement b
 
 At the first inspection, there is a visible difference in both fixation durations and saccade amplitudes between the first and second viewing in both conditions. Although the effect exists in both conditions, it is clear that in minutes condition it has a larger magnitude that in days condition.
 
-IMAGE HERE IMAGE HERE
+<img src="Plots/fixdur_sacampl_means.jpg" width="900" height="400" alt="fixdur_sacampl_mean">
 
 As the result, the linear mixed effect analysis revealed a strong significant effect of viewing for both fixation duration and saccade amplitude. This result indicates that both dependent variables differed significantly between the first and second observations on short and long time scales. We found no significant effect of condition and interaction between condition and viewing for fixation duration and saccade amplitude. The former suggests that on average participants reacted identically to images in minutes and days conditions. The latter confirms that there was no difference in reaction patterns to new versus familiar images between minutes and days conditions.
  
